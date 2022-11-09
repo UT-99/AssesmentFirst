@@ -1,0 +1,204 @@
+#flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+#flexItem1{
+    width: 60%;
+    background-color: rgb(227, 225, 225);
+    padding: 5%;
+    
+}
+
+
+#flexItem2{
+    width: 40%;
+    background-color: rgb(227, 129, 129);
+    padding: 5%;
+    
+}
+
+#imageID{
+    width: 80%;  
+    
+}
+
+#nameButton{
+    background-color: greenyellow;
+    padding: 2%;
+    border-radius: 15px;
+    margin: 2%;
+    width:40%;
+}
+
+#MobileButton{
+    background-color: yellow;
+    padding: 2%;
+    border-radius: 15px;
+    margin: 2%;
+    width:50%
+}
+#AgeButton{
+    background-color: greenyellow;
+    padding: 2%;
+    border-radius: 15px;
+    margin: 2%;
+    width:65%
+}
+#AddressButton{
+    background-color: yellow;
+    padding: 2%;
+    border-radius: 15px;
+    margin: 2%;
+    width:50%
+}
+#SubmitButton{
+    background-color: greenyellow;
+    padding: 2%;
+    border-radius:15px;
+    margin: 2%;
+    width:40%
+}
+
+#bilieveHeading{
+    color: white;
+    font-size: 60px;
+    text-shadow:  2px 2px 1.6px white;
+   
+}
+
+#getDreamJob{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.textformat{
+    font-size: 90px;
+    font-family: sans-serif;
+    color: yellow;
+    margin: 0;
+}
+
+#getJob{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#google
+{
+    color: grey;
+    font-family: sans-serif;
+}
+
+#nameid{
+    color: maroon;
+}
+
+#imagesID2{
+    color: greenyellow;
+    font-family: sans-serif;
+}
+
+
+#mobileNumber{
+    font-size: 2em;
+    color: maroon;
+    font-family: sans-serif;
+    margin:0 auto;
+}
+
+
+#strongid{
+    font-family: sans-serif;
+}
+
+#spanid{
+    text-decoration: wavy;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+}
+
+#Age{
+    color: maroon;
+    font-family: sans-serif;
+}
+#Address{
+    color: brown;
+    font-size: 2em;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#Submit{
+    color: grey;
+    font-family: sans-serif;
+}
+
+#visibility{
+    display: none;
+}
+
+#nameid2, #mobileNumber2{
+    display: none;
+}
+
+@media screen and (min-width:330px) and (max-width:780px){
+    #flex-container{
+        display: flex;
+        flex-direction: column;
+        margin: 1%;
+    }
+
+
+    
+#flexItem1{
+    width: 100%;
+    background-color: rgb(227, 225, 225);
+    padding: 5%;
+    
+    
+}
+
+
+#flexItem2{
+    width: 100%;
+    background-color: rgb(227, 129, 129);
+    padding: 5%;
+    
+    
+}
+
+
+#nameid, #mobileNumber ,.textformat, #getJob, #Age{
+    display: none;
+}
+
+
+#visibility{
+    display: block;
+    color: yellow;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#google{
+
+    color: rgb(114, 171, 28);
+}
+#nameid2, #mobileNumber2{
+    display: block;
+    color: maroon;
+}
+
+#Address{
+    font-size: initial;
+}
+
+#strongid{
+    text-decoration: underline;
+    color: rgb(113, 168, 113);
+    font-size: normal;
+}
+
+}
